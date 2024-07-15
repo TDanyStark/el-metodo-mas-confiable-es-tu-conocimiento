@@ -1,0 +1,20 @@
+---
+import TextPrincipal from "../components/TextPrincipal.astro";
+import Layout from "../layouts/Layout.astro";
+import Banner from "../sections/Banner.astro";
+
+import Header from "../sections/Header.astro";
+import Game from "../components/Game.astro";
+---
+
+<Layout title="App - el método más confiable es tu conocimiento">
+  <Header />
+  <main class="mt-28">
+    <Banner />
+    <TextPrincipal />
+    <Game />
+  </main>
+  <Header fixed={false} />
+
+
+</Layout>

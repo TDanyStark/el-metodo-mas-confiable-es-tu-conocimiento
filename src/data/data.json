@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "pregunta" : "Anticonceptivos orales combinados",
+    "respuesta" : "Contienen dos tipos de hormonas, parecidas a las que produce tu cuerpo y actúan impidiendo la ovulación. Debes tomar una píldora cada día a la misma hora hasta terminar el envase."
+  },
+  {
+    "id": 2,
+    "pregunta" : "Anticonceptivos orales de solo progestina",
+    "respuesta" : "Contienen un tipo de hormona llamada progestina, que impide la ovulación. Debes tomar una píldora cada día a la misma hora hasta terminar el envase."
+  },
+  {
+    "id": 3,
+    "pregunta" : "Inyectables mensuales",
+    "respuesta" : "Contienen dos tipos de hormonas, parecidas a las que produce tu cuerpo y actúan impidiendo la ovulación. Debes recibir una inyección cada 4 semanas."
+  },
+  {
+    "id": 4,
+    "pregunta" : "Inyectables de solo progestina",
+    "respuesta" : "Contienen un tipo de hormona llamada progestina, que impide la ovulación. Debes recibir una inyección cada 3 meses (13 semanas)."
+  },
+  {
+    "id": 5,
+    "pregunta" : "Anillo vaginal combinado",
+    "respuesta" : "Contiene dos tipos de hormonas, parecidas a las que produce tu cuerpo y actúan impidiendo la ovulación. Debe permanecer puesto durante tres semanas continuas."
+  },
+  {
+    "id": 6,
+    "pregunta" : "Implante subdérmico",
+    "respuesta" : "Contienen un tipo de hormona llamada progestina, que impide la ovulación. Es un método de larga duración, 3, 4 o 5 años, el cual debe ser insertado en el brazo por un profesional de la salud."
+  },
+  {
+    "id": 7,
+    "pregunta" : "Píldoras anticonceptivas de emergencia",
+    "respuesta" : "Contiene un tipo de hormona, similar a las que se producen en tu cuerpo, y actúa impidiendo o retrasando la ovulación. Si has tenido relaciones sexuales sin protección, debes tomar una píldora lo antes posible, en un plazo máximo de 72 horas."
+  }
+]
