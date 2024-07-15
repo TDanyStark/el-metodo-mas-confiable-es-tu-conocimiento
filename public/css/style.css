@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Brandon';
+  src: url('/apps/abbott/el-metodo-mas-confiable/fonts/Brandon_reg.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url('/apps/abbott/el-metodo-mas-confiable/fonts/Brandon_blk.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
