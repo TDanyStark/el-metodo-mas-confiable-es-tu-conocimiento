@@ -1,13 +1,18 @@
 ---
-import { URL_BASE } from "../config"
+import { URL_BASE } from "../config";
 ---
 
-  <section 
-    style={`background-image: url(${URL_BASE}img/banner.webp); background-size: cover; background-position: top left;`}
-    class="flex items-center min-h-[400px] md:min-h-[400px] p-2"
-  >
-
-  <div class="container mx-auto">
-    <img class="w-full max-w-[450px]" src={URL_BASE + "img/elmetowhite.webp"} alt="El método más confiable es tu conocimiento">
+<section
+  style={`background-image: url(${URL_BASE}img/banner.webp); background-size: cover; background-position: top left;`}
+  class="h-[400px] md:h-[400px] p-2"
+>
+  <div class="h-full max-w-[1280px] mx-auto flex">
+    <div class="my-auto">
+      <img
+        class="w-full max-w-[450px]"
+        src={URL_BASE + "img/elmetowhite.webp"}
+        alt="El método más confiable es tu conocimiento"
+      />
+    </div>
   </div>
-  </section>
+</section>

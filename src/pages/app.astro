@@ -4,7 +4,7 @@ import Layout from "../layouts/Layout.astro";
 import Banner from "../sections/Banner.astro";
 
 import Header from "../sections/Header.astro";
-import Game from "../components/Game.astro";
+import Game from "../components/Game.jsx";
 ---
 
 <Layout title="App - el método más confiable es tu conocimiento">
@@ -12,7 +12,7 @@ import Game from "../components/Game.astro";
   <main class="mt-28">
     <Banner />
     <TextPrincipal />
-    <Game />
+    <Game client:load />
   </main>
   <Header fixed={false} />
 

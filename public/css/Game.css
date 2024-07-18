@@ -1,0 +1,31 @@
+.grid-personalizado{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  place-content: center;
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+.grid-personalizado li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media (min-width: 768px) {
+  /* Tus estilos aquí */
+  .grid-personalizado{
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .grid-personalizado li{
+    grid-column: span 2;
+  }
+
+  .grid-personalizado li:nth-child(1){
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+}
