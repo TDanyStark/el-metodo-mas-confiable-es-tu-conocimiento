@@ -17,14 +17,14 @@ const Popup = ({ setModalIsOpen, modalisOpen, children }) => {
   return (
     <div
       id="default-modal"
-      tabindex="-1"
+      tabIndex="-1"
       aria-hidden="true"
       className={`${
         modalisOpen ? "flex" : "hidden"
-      } overflow-y-auto bg-morado-abbott/20 overflow-x-hidden fixed inset-0 z-50 justify-center items-center w-full md:inset-0 max-h-full`}
+      } overflow-y-auto bg-morado-abbott/50 overflow-x-hidden fixed inset-0 z-50 justify-center items-center w-full md:inset-0 max-h-full cursor-pointer`}
       onClick={handleClick}
     >
-      <div className="relative p-4 w-full max-w-lg max-h-full" ref={modalRef}>
+      <div className="relative p-4 w-full max-w-xl max-h-full cursor-default" ref={modalRef}>
         <div className="relative bg-white rounded-lg shadow">
           <button
             type="button"
@@ -41,9 +41,9 @@ const Popup = ({ setModalIsOpen, modalisOpen, children }) => {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
               />
             </svg>
@@ -59,9 +59,9 @@ const Popup = ({ setModalIsOpen, modalisOpen, children }) => {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M10 11V6m0 8h.01M19 10a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
               />
             </svg>
